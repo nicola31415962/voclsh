@@ -46,4 +46,3 @@ def flat_state_from_mat (x, basis_mat):
     rho = H / np.trace(H)                        # normalisation
     
     return  flatten_in_basis(rho, basis_mat) # final projection into proper subspace and flattening
-

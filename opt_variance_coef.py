@@ -46,24 +46,11 @@ def variance_coef_freevars (x, povm_mat, basis_mat, coefs):
                 ##-----##
 
 def nnz_probs(povm_mat, flat_rho):
-    # finds probabilities of a given (flattened) state by projecting on the POVM effects. 
-    # Additional check to guarantee that no probability is actually zero (would correspond to a noisy measurement) to avoid issues later
-    probs = np.round(povm_mat@flat_rho,10)
-
-    n = len(probs) # number of effects
-    # check for zero probabilities 
-    nz = len(np.where(probs == 0))
-
-    if nz > 0:
-        eps = (10e-9)*min(probs[np.where(probs>0)])/n**2 # makes this small so not to interfere too much on actual probabilities
-        for i in range(n):
-            if probs[i] == 0:
-                probs[i] = eps                           # fixes minimal value to zero probabilities
-            else:
-                probs[i] = probs[i] - eps/nz             # subtracts contribution equally from all other probabilities
-    # corresponds to presence of noise in the measurement process
+    probs = povm_mat @ flat_rho
+    eps = 1e-12               # small floor to avoid zero probabilities
+    probs = np.clip(probs, eps, None)  # set minimum probability
+    probs /= probs.sum()       # renormalize to 1
     return probs
-
                 ##-----##
 
 def opt_invmat_state (povm_mat, probs):
@@ -117,12 +104,18 @@ def variance_optimisation(povm_cm, basis_m ,observable):
     
     x0 = np.ones(D)/(D) # "maximally mixed" initial condition
 
-    res = sc.optimize.minimize(var_state_optimisation, 
-                                x0, 
-                                args=(povm_cm, basis_m, flatobs),
-                                method='powell',
-                                tol = 10e-5
-                            )
+    res = optimize.minimize(
+    var_state_optimisation,
+    x0,
+    args=(povm_cm, basis_m, flatobs),
+    method='Nelder-Mead', # <--- new method
+    options={
+    'xatol': 1e-5, # tolerance for parameters
+    'fatol': 1e-5, # tolerance for function value
+    'maxiter': 1000, # max iterations (adjust as needed)
+    'disp': False # set True to see convergence messages
+    })
+
     
     xs = res.x
     flat_rhos = sf.flat_state_from_mat(xs, basis_m) # optimal state
@@ -145,13 +138,19 @@ def fix_coef_var_optimisation(povm_cm, basis_m, coefs):
     
     x0 = np.ones(D)/(D) # "maximally mixed" initial condition
 
-    res = sc.optimize.minimize(variance_coef_freevars, 
-                                x0, 
-                                args=(povm_cm, basis_m, coefs),
-                                method='powell',
-                                tol = 10e-5
-                            )
-    
+    res = optimize.minimize(
+    variance_coef_freevars,
+    x0,
+    args=(povm_cm, basis_m, coefs),
+    method='Nelder-Mead', # <--- new method
+    options={
+    'xatol': 1e-5, # tolerance for parameters
+    'fatol': 1e-5, # tolerance for function value
+    'maxiter': 1000, # max iterations (adjust as needed)
+    'disp': False # set True to see convergence messages
+    })
+
+
     xs = res.x
     flat_rhos = sf.flat_state_from_mat(xs, basis_m) # optimal state
     rhos = np.reshape(basis_m@flat_rhos,(d,d))

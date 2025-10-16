@@ -101,4 +101,4 @@ def pauli_povm_single(*args):
         return pauli_povm[inds]/2 # proper normalisation
     else:
         raise TypeError("Please indicate either the two indices for a plane POVM or nothing at all")
-        
+    

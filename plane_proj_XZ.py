@@ -23,6 +23,7 @@ import numpy as np
 import scipy as sc
 from scipy import io
 from scipy import optimize
+from joblib import Parallel, delayed
 
 import time
 import os
@@ -58,8 +59,8 @@ single_povm = pf.pauli_povm_single('X','Z') # single qubit plane POVM
 
 density = 2  # number of different projectors considered
 
-N_min = 3     # minimal dimension considered
-N_max = 5    # maximal dimension considered
+N_min = 1     # minimal dimension considered
+N_max = 3    # maximal dimension considered
 
 # saving directory (created if non-existing)
 directory= 'plane_proj_XZ'
@@ -77,46 +78,49 @@ avg_vec = []
 
 times = []
 
+# --- helper function for parallel theta evaluation ---
+def compute_var_for_theta(j, density, N, pcm, bm):
+    theta = j*np.pi/(4*density)
+    phi = 0
+    singleobs = sf.qubit(theta, phi)
+    obs = pf.tensor_same(singleobs, N)
+    var, rho, oc = ocf.variance_optimisation(pcm, bm, obs)  # no 'method'
+    return var
+
+# --- main loop ---
 for N in range(1, N_max+1):
     time_start = time.time()
-    filename = directory+f'_{N}' # just to be clear, file name is the same as directory
+    filename = directory + f'_{N}'
+
     # tensor POVM definition
     povm = pf.tensor_same(single_povm, N)
-    [pcm,bm] = pf.povm_coef_matrix(povm)
-    can_em = sc.linalg.pinv(pcm) # returns the Moore-Penrose pseudo-inverse (canonical inverse)
+    [pcm, bm] = pf.povm_coef_matrix(povm)
+    can_em = sc.linalg.pinv(pcm)  # canonical inverse
 
     # canonical inversion
-    single_obs = sf.qubit(0,0)          # we've seen that it's the same for all projectors of the same size (for the plane case at least)
-    obs = pf.tensor_same(single_obs,N)
-    cc = can_em.T@(sf.flatten_in_basis(obs,bm)) # canonical coefficients
-    [var_can, rho_can] = ocf.fix_coef_var_optimisation(pcm, bm, cc) # canonical maximal variance
-    np.save(f'{directory}/{filename}_can',var_can)
+    single_obs = sf.qubit(0, 0)
+    obs = pf.tensor_same(single_obs, N)
+    cc = can_em.T @ (sf.flatten_in_basis(obs, bm))
+    [var_can, rho_can] = ocf.fix_coef_var_optimisation(pcm, bm, cc)
+    np.save(f'{directory}/{filename}_can', var_can)
 
-    # optimal upper bound on variance
-    var_vec = []
-    for j in range(density):
-        theta = j*np.pi/(4*density) # angle runs between 0 and \pi/2 (then symmetry applies)
-        phi = 0                     # we consider projectors on the prime meridian
-        
-        singleobs = sf.qubit(theta, phi)
-        obs = pf.tensor_same(singleobs, N) # N-tensor of same observable
-        # optimal variance
-        [var, rho, oc] = ocf.variance_optimisation(pcm, bm ,obs) # actual variance optimisation
+    # optimal upper bound on variance (parallelized over theta)
+    var_vec = Parallel(n_jobs=-1)(
+        delayed(compute_var_for_theta)(j, density, N, pcm, bm)
+        for j in range(density)
+    )
+    np.save(f'{directory}/{filename}_opt', var_vec)
 
-        var_vec.append(var)
-    np.save(f'{directory}/{filename}_opt',var_vec)
-    
     all_vec.append(var_vec)
     all_can.append(var_can)
     min_vec.append(min(var_vec))
-    vv = np.array(var_vec)
-    avg_vec.append(np.average(vv))
-    
+    avg_vec.append(np.average(np.array(var_vec)))
+
     time_N = time.time()
     print(N, time_N-time_start)
     times.append(time_N-time_start)
-    
-np.save(f'{directory}/time_log',times)
+
+np.save(f'{directory}/time_log', times)
 # -
 
 # # Plots
@@ -157,5 +161,3 @@ ax[2].set_xlabel('# qubits')
     
 plt.savefig(f'{directory}/plane_proj.pdf', transparent=True, bbox_inches='tight')
 # -
-
-

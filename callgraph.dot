@@ -1,0 +1,21 @@
+digraph G {
+    "compute_var_for_theta" -> "qubit";
+    "opt_coef_state" -> "nnz_probs";
+    "variance_coef_state" -> "nnz_probs";
+    "variance_optimisation" -> "opt_coef_state";
+    "compute_var_for_theta" -> "tensor_same";
+    "opt_sn_state" -> "nnz_probs";
+    "var_state_optimisation" -> "opt_sn_state";
+    "compute_var_for_theta" -> "variance_optimisation";
+    "fix_coef_var_optimisation" -> "flat_state_from_mat";
+    "flat_state_from_mat" -> "flatten_in_basis";
+    "variance_coef_state" -> "variance_pc";
+    "variance_coef_freevars" -> "nnz_probs";
+    "opt_coef_state" -> "opt_invmat_state";
+    "variance_optimisation" -> "flat_state_from_mat";
+    "variance_optimisation" -> "flatten_in_basis";
+    "variance_coef_freevars" -> "flat_state_from_mat";
+    "var_state_optimisation" -> "flat_state_from_mat";
+    "opt_sn_state" -> "opt_coef_state";
+    "variance_coef_freevars" -> "variance_pc";
+}
