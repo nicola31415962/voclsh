@@ -1,5 +1,6 @@
-import numpy as np
-import scipy as sc
+# JAX PORT of povm_functions.py
+
+import jax.numpy as jnp
 
 # additional useful functions for POVm generation and handling
 ## tensor_same:       returns tensor product of the same object N times iteratively - both single ob servables or full POVMs
@@ -7,52 +8,55 @@ import scipy as sc
 ## pauli_povm_single: returns POVM out of Pauli projectors for a single qubit (both plane or full POVMS)
 
 
-def tensor_same (povm, N):
+def tensor_same(povm, N):
     # takes the iterative tensor of the *same* object N times
     # can be used both for observables and POVMs (as long as they're arrays of objects)
     # check to avoid mistakes, with cheeky remark
-    N=int(N)
-    if N==1:
-        #print('Single POVM, why did you even call this function in the first place?')
+    N = int(N)
+    if N == 1:
+        # print('Single POVM, why did you even call this function in the first place?')
         return povm
-    elif (N<1):
+    elif (N < 1):
         raise ValueError('Invalid value for repetition of tensor product')
     else:
-        new_povm = np.kron(povm,povm) # first step, common for any input
-        if N > 2:                     # repetition for higher dimensions
-            for i in range(N):
-                new_povm = np.kron (povm, new_povm)
-        
+        new_povm = jnp.kron(povm, povm)  # first step, common for any input
+        if N > 2:                        # repetition for higher dimensions
+            for _ in range(N-2):
+                new_povm = jnp.kron(povm, new_povm)
         return new_povm
     
                 ##-----##
 
-def povm_coef_matrix (povm):
+def povm_coef_matrix(povm):
     # returns the coefficient matrix expressed in the proper basis of the subspace spanned by the effects
     # also returns the same basis (to also express states and observables in the same basis)
     # (canonical estimator matrix can be easily achieved as Moore-Penrose pseudo-inverse)
     
-    dims = np.shape(povm)
+    dims = povm.shape
     n = max(dims)
     d = min(dims) # dimension of *vector space* - there should be two of these
     D = d**2      # dimesnion of full *HS* space
 
-    can_coef_matrix = np.reshape(povm,(n,d**2))  # basically flattens all effects
+    can_coef_matrix = povm.reshape((n, D))  # basically flattens all effects
                                             # simply flattening works, as long as it's consistent
         
-    [U,S,Vh]=sc.linalg.svd(can_coef_matrix) # SVD of canonical matrix, to determine the dimension of subspace
+    # SVD of canonical matrix, to determine the dimension of subspace
+    # jnp.linalg.svd returns U, S, Vh like SciPy (full_matrices=False gives compact SVD)
+    U, S, Vh = jnp.linalg.svd(can_coef_matrix, full_matrices=False)
 
-    nz = len(np.where(np.round(S,10)>0)[0]) # counting non-zero eigenvalues, which corresponds to the dimension
-                                            # of the subspace spanned by the POVM
+    # counting non-zero singular values, corresponding to the dimension
+    # of the subspace spanned by the POVM (use small tolerance)
+    nz = jnp.sum(jnp.where(jnp.round(S, 10) > 0, 1, 0))
+    nz = int(nz)
 
     # selection of the basis matrix as the set of valid eigenstates from V matrix
     if nz < D:
-        bm = Vh[:nz].T # just to exclude floating point errors
+        bm = Vh[:nz].T  # just to exclude floating point errors
     else:
-        bm = np.eye(D)
+        bm = jnp.eye(D, dtype=povm.dtype)
     # basis matrix now collects a valid orthonormal basis as its *columns*
         
-    pcm = can_coef_matrix@bm
+    pcm = can_coef_matrix @ bm
     return pcm, bm
 
                 ##-----##
@@ -67,19 +71,19 @@ def pauli_povm_single(*args):
         "Z" : 2,
     }
     
-    pauli_povm = np.array([
+    pauli_povm = jnp.array([
                             [[0.5,     0.5],[     0.5,  0.5]], # X eigensates
                             [[0.5,    -0.5],[    -0.5,  0.5]],
                             [[0.5,  0.5*1j],[ -0.5*1j,  0.5]], # Y eigenstates
                             [[0.5, -0.5*1j],  [0.5*1j,  0.5]],
                             [[  1,       0],[       0,    0]], # Z eigenstates
                             [[  0,       0],[       0,    1]],
-                          ])
+                          ], dtype=jnp.complex64)
     
-    if len(args)<2:
+    if len(args) < 2:
         return pauli_povm/3 # anything with less than two values will simply return the full POVM
                             # (with proper normalisation to guarantee it sums to identity)
-    elif len(args)==2:
+    elif len(args) == 2:
 
         # selection of corresponding indices in case text is input
         inds = []
@@ -90,15 +94,14 @@ def pauli_povm_single(*args):
                 except KeyError:
                     raise ValueError(f"Unknown keyword: {args[0]}")
             elif isinstance(args[i], int):
-                ind = args[i]
+                ind = int(args[i])
             else:
                 raise TypeError("Input must be a string keyword or an integer index")
 
-            # appended one at the time (to avoid akward reshaping)
+            # appended one at the time (to avoid awkward reshaping)
             inds.append(2*ind)
             inds.append(2*ind+1)
         
-        return pauli_povm[inds]/2 # proper normalisation
+        return pauli_povm[jnp.array(inds)]/2 # proper normalisation
     else:
         raise TypeError("Please indicate either the two indices for a plane POVM or nothing at all")
-    
