@@ -1,0 +1,760 @@
+[2026-02-26 22:42:31] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for physics-materials/z2pack: 404 Client Error: Not Found for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 404 Client Error: Not Found for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 404 Client Error: Not Found for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/Desktop/Github_repos/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+zsh:1: bad pattern: "[2026-02-26
+zsh:1: bad pattern: "[2026-02-26
+zsh:1: bad pattern: "[2026-02-26
+zsh:1: bad pattern: "[2026-02-26
+zsh:1: bad pattern: "[2026-02-26
+zsh:1: bad pattern: "[2026-02-26
+zsh:1: bad pattern: "[2026-02-26
+[test]
+zsh:1: bad pattern: "[2026-02-26
+[2026-02-26 23:05:43] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[2026-02-26 23:12:34] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for physics-materials/z2pack: 404 Client Error: Not Found for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 404 Client Error: Not Found for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 404 Client Error: Not Found for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-02-26 23:20:05] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for physics-materials/z2pack: 404 Client Error: Not Found for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 404 Client Error: Not Found for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 404 Client Error: Not Found for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-03-02 13:12:37] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[2026-03-02 13:12:53] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for physics-materials/z2pack: 404 Client Error: Not Found for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 404 Client Error: Not Found for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 404 Client Error: Not Found for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 404 Client Error: Not Found for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-03-02 14:17:06] Skip: last run 1772457426s ago (< spacing)
+[2026-03-02 15:17:06] Skip: last run 1772461026s ago (< spacing)
+[2026-03-02 16:17:06] Skip: last run 1772464626s ago (< spacing)
+[2026-03-02 17:27:33] Skip: last run 1772468853s ago (< spacing)
+[2026-03-02 18:29:13] Skip: last run 1772472553s ago (< spacing)
+[2026-03-03 00:33:35] Skip: last run 1772494415s ago (< spacing)
+[2026-03-03 08:02:08] Skip: last run 1772521328s ago (< spacing)
+[2026-03-03 10:26:41] Skip: last run 1772530001s ago (< spacing)
+[2026-03-03 11:26:41] Skip: last run 1772533601s ago (< spacing)
+[2026-03-03 12:30:30] Skip: last run 1772537430s ago (< spacing)
+[2026-03-03 13:55:20] Skip: last run 1772542520s ago (< spacing)
+[2026-03-03 15:15:46] Skip: last run 1772547346s ago (< spacing)
+[2026-03-03 16:18:16] Skip: last run 1772551096s ago (< spacing)
+[2026-03-03 17:27:39] Skip: last run 1772555259s ago (< spacing)
+[2026-03-03 18:27:39] Skip: last run 1772558859s ago (< spacing)
+[2026-03-03 19:30:04] Skip: last run 1772562604s ago (< spacing)
+[2026-03-04 01:30:54] Skip: last run 1772584254s ago (< spacing)
+[2026-03-04 09:41:32] Skip: last run 1772613692s ago (< spacing)
+[2026-03-04 10:41:32] Skip: last run 1772617292s ago (< spacing)
+[2026-03-04 11:44:58] Skip: last run 1772621098s ago (< spacing)
+[2026-03-04 14:04:54] Skip: last run 1772629494s ago (< spacing)
+[2026-03-04 15:40:10] Skip: last run 1772635210s ago (< spacing)
+[2026-03-04 17:10:11] Skip: last run 1772640611s ago (< spacing)
+[2026-03-04 18:10:11] Skip: last run 1772644211s ago (< spacing)
+[2026-03-04 19:20:40] Skip: last run 1772648440s ago (< spacing)
+[2026-03-05 11:41:13] Skip: last run 1772707273s ago (< spacing)
+[2026-03-05 12:41:13] Skip: last run 1772710873s ago (< spacing)
+[2026-03-05 13:41:13] Skip: last run 1772714473s ago (< spacing)
+[2026-03-05 16:17:24] Skip: last run 1772723844s ago (< spacing)
+[2026-03-05 17:17:24] Skip: last run 1772727444s ago (< spacing)
+[2026-03-05 19:28:21] Skip: last run 1772735301s ago (< spacing)
+[2026-03-06 05:38:17] Skip: last run 1772771897s ago (< spacing)
+[2026-03-06 10:32:44] Skip: last run 1772789564s ago (< spacing)
+[2026-03-06 11:42:58] Skip: last run 1772793778s ago (< spacing)
+[2026-03-06 13:06:40] Skip: last run 1772798800s ago (< spacing)
+[2026-03-06 14:53:13] Skip: last run 1772805193s ago (< spacing)
+[2026-03-08 09:48:46] Skip: last run 1772959726s ago (< spacing)
+[2026-03-08 14:34:55] Skip: last run 1772980495s ago (< spacing)
+[2026-03-08 16:23:08] Skip: last run 1772986988s ago (< spacing)
+[2026-03-09 05:30:54] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for Qiskit/qiskit: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Qiskit/qiskit (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] PyPIStats failed for qiskit: HTTPSConnectionPool(host='pypistats.org', port=443): Max retries exceeded with url: /api/packages/qiskit/recent (Caused by NameResolutionError("HTTPSConnection(host='pypistats.org', port=443): Failed to resolve 'pypistats.org' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for qiskit-community/qiskit-algorithms: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/qiskit-community/qiskit-algorithms (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/amazon-braket/amazon-braket-sdk-python (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for qBraid/qBraid: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qBraid/qBraid
+[WARN] GitHub fetch failed for aqora-io/q3as-py: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/q3as-py
+[WARN] GitHub fetch failed for aqora-io/cli: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/cli
+[WARN] GitHub fetch failed for qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit/qiskit
+[WARN] GitHub fetch failed for quantumlib/cirq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/cirq
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for dwavesystems/dwave-ocean-sdk: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dwavesystems/dwave-ocean-sdk
+[WARN] GitHub fetch failed for rigetti/pyquil: 401 Client Error: Unauthorized for url: https://api.github.com/repos/rigetti/pyquil
+[WARN] GitHub fetch failed for Blueqat/Blueqat: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Blueqat/Blueqat
+[WARN] GitHub fetch failed for qutip/qutip: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qutip/qutip
+[WARN] GitHub fetch failed for qiboteam/qibo: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiboteam/qibo
+[WARN] GitHub fetch failed for XanaduAI/strawberryfields: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/strawberryfields
+[WARN] GitHub fetch failed for XanaduAI/thewalrus: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/thewalrus
+[WARN] GitHub fetch failed for tqsd/QuNetSim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tqsd/QuNetSim
+[WARN] GitHub fetch failed for tencent-quantum-lab/tensorcircuit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tencent-quantum-lab/tensorcircuit
+[WARN] GitHub fetch failed for dynamiqs/dynamiqs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dynamiqs/dynamiqs
+[WARN] GitHub fetch failed for ProjectQ-Framework/ProjectQ: 401 Client Error: Unauthorized for url: https://api.github.com/repos/ProjectQ-Framework/ProjectQ
+[WARN] GitHub fetch failed for Quantomatic/PyZX: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Quantomatic/PyZX
+[WARN] GitHub fetch failed for quantumlib/OpenFermion: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-Psi4: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-Psi4
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-PySCF: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-PySCF
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane-lightning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane-lightning
+[WARN] GitHub fetch failed for qir-alliance/pyqir: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qir-alliance/pyqir
+[WARN] GitHub fetch failed for physics-materials/z2pack: 401 Client Error: Unauthorized for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for netket/netket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/netket/netket
+[WARN] GitHub fetch failed for weinbe58/QuSpin: 401 Client Error: Unauthorized for url: https://api.github.com/repos/weinbe58/QuSpin
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for pymanopt/pymanopt: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pymanopt/pymanopt
+[WARN] GitHub fetch failed for PennyLaneAI/catalyst: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/catalyst
+[WARN] GitHub fetch failed for qiskit-community/qiskit-nature: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-nature
+[WARN] GitHub fetch failed for qiskit-community/qiskit-optimization: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-optimization
+[WARN] GitHub fetch failed for qiskit-community/qiskit-machine-learning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-machine-learning
+[WARN] GitHub fetch failed for qiskit-community/qiskit-experiments: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-experiments
+[WARN] GitHub fetch failed for qiskit-community/qiskit-dynamics: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-dynamics
+[WARN] GitHub fetch failed for qiskit-community/qiskit-metal: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-metal
+[WARN] GitHub fetch failed for unitaryfund/mitiq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/unitaryfund/mitiq
+[WARN] GitHub fetch failed for qulacs/qulacs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qulacs/qulacs
+[WARN] GitHub fetch failed for quantumlib/qsim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qsim
+[WARN] GitHub fetch failed for google/TensorNetwork: 401 Client Error: Unauthorized for url: https://api.github.com/repos/google/TensorNetwork
+[WARN] GitHub fetch failed for jcmgray/quimb: 401 Client Error: Unauthorized for url: https://api.github.com/repos/jcmgray/quimb
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for QCoDeS/Qcodes: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCoDeS/Qcodes
+[WARN] GitHub fetch failed for QuEraComputing/Bloqade: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuEraComputing/Bloqade
+[WARN] GitHub fetch failed for pyscf/pyscf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pyscf/pyscf
+[WARN] GitHub fetch failed for QuantumBFS/yao-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuantumBFS/yao-python
+[WARN] GitHub fetch failed for CQCL/pytket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/CQCL/pytket
+[WARN] GitHub fetch failed for XanaduAI/pennylane-sf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/pennylane-sf
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-03-09 08:52:37] Skip: last run 1773071557s ago (< spacing)
+[2026-03-09 09:59:07] Skip: last run 1773075547s ago (< spacing)
+[2026-03-09 10:59:07] Skip: last run 1773079147s ago (< spacing)
+[2026-03-09 13:57:21] Skip: last run 1773089841s ago (< spacing)
+[2026-03-09 15:32:10] Skip: last run 1773095530s ago (< spacing)
+[2026-03-09 16:35:42] Skip: last run 1773099342s ago (< spacing)
+[2026-03-09 23:54:45] Skip: last run 1773125685s ago (< spacing)
+[2026-03-10 00:00:01] Skip: last run 1773126001s ago (< spacing)
+[2026-03-10 01:00:02] Skip: last run 1773129602s ago (< spacing)
+[2026-03-10 02:00:02] Skip: last run 1773133202s ago (< spacing)
+[2026-03-10 03:00:02] Skip: last run 1773136802s ago (< spacing)
+[2026-03-10 08:54:03] Skip: last run 1773158043s ago (< spacing)
+[2026-03-10 11:15:49] Skip: last run 1773166549s ago (< spacing)
+[2026-03-10 12:32:15] Skip: last run 1773171135s ago (< spacing)
+[2026-03-10 13:49:47] Skip: last run 1773175787s ago (< spacing)
+[2026-03-11 07:30:12] Skip: last run 1773239412s ago (< spacing)
+[2026-03-11 10:38:14] Skip: last run 1773250694s ago (< spacing)
+[2026-03-11 12:05:59] Skip: last run 1773255959s ago (< spacing)
+[2026-03-11 15:46:08] Skip: last run 1773269168s ago (< spacing)
+[2026-03-11 19:38:17] Skip: last run 1773283097s ago (< spacing)
+[2026-03-12 02:42:08] Skip: last run 1773308528s ago (< spacing)
+[2026-03-12 08:41:49] Skip: last run 1773330109s ago (< spacing)
+[2026-03-12 09:41:49] Skip: last run 1773333709s ago (< spacing)
+[2026-03-12 10:41:49] Skip: last run 1773337309s ago (< spacing)
+[2026-03-12 12:11:42] Skip: last run 1773342702s ago (< spacing)
+[2026-03-12 14:09:46] Skip: last run 1773349786s ago (< spacing)
+[2026-03-12 15:34:43] Skip: last run 1773354883s ago (< spacing)
+[2026-03-13 09:36:27] Skip: last run 1773419787s ago (< spacing)
+[2026-03-13 15:12:42] Skip: last run 1773439962s ago (< spacing)
+[2026-03-13 18:16:27] Skip: last run 1773450987s ago (< spacing)
+[2026-03-15 05:35:59] Skip: last run 1773578159s ago (< spacing)
+[2026-03-15 21:27:15] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for Qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Qiskit/qiskit
+[WARN] GitHub fetch failed for qiskit-community/qiskit-algorithms: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-algorithms
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for qBraid/qBraid: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qBraid/qBraid
+[WARN] GitHub fetch failed for aqora-io/q3as-py: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/q3as-py
+[WARN] GitHub fetch failed for aqora-io/cli: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/cli
+[WARN] GitHub fetch failed for qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit/qiskit
+[WARN] GitHub fetch failed for quantumlib/cirq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/cirq
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for dwavesystems/dwave-ocean-sdk: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dwavesystems/dwave-ocean-sdk
+[WARN] GitHub fetch failed for rigetti/pyquil: 401 Client Error: Unauthorized for url: https://api.github.com/repos/rigetti/pyquil
+[WARN] GitHub fetch failed for Blueqat/Blueqat: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Blueqat/Blueqat
+[WARN] GitHub fetch failed for qutip/qutip: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qutip/qutip
+[WARN] GitHub fetch failed for qiboteam/qibo: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiboteam/qibo
+[WARN] GitHub fetch failed for XanaduAI/strawberryfields: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/strawberryfields
+[WARN] GitHub fetch failed for XanaduAI/thewalrus: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/thewalrus
+[WARN] GitHub fetch failed for tqsd/QuNetSim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tqsd/QuNetSim
+[WARN] GitHub fetch failed for tencent-quantum-lab/tensorcircuit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tencent-quantum-lab/tensorcircuit
+[WARN] GitHub fetch failed for dynamiqs/dynamiqs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dynamiqs/dynamiqs
+[WARN] GitHub fetch failed for ProjectQ-Framework/ProjectQ: 401 Client Error: Unauthorized for url: https://api.github.com/repos/ProjectQ-Framework/ProjectQ
+[WARN] GitHub fetch failed for Quantomatic/PyZX: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Quantomatic/PyZX
+[WARN] GitHub fetch failed for quantumlib/OpenFermion: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-Psi4: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-Psi4
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-PySCF: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-PySCF
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane-lightning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane-lightning
+[WARN] GitHub fetch failed for qir-alliance/pyqir: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qir-alliance/pyqir
+[WARN] GitHub fetch failed for physics-materials/z2pack: 401 Client Error: Unauthorized for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for netket/netket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/netket/netket
+[WARN] GitHub fetch failed for weinbe58/QuSpin: 401 Client Error: Unauthorized for url: https://api.github.com/repos/weinbe58/QuSpin
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for pymanopt/pymanopt: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pymanopt/pymanopt
+[WARN] GitHub fetch failed for PennyLaneAI/catalyst: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/catalyst
+[WARN] GitHub fetch failed for qiskit-community/qiskit-nature: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-nature
+[WARN] GitHub fetch failed for qiskit-community/qiskit-optimization: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-optimization
+[WARN] GitHub fetch failed for qiskit-community/qiskit-machine-learning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-machine-learning
+[WARN] GitHub fetch failed for qiskit-community/qiskit-experiments: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-experiments
+[WARN] GitHub fetch failed for qiskit-community/qiskit-dynamics: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-dynamics
+[WARN] GitHub fetch failed for qiskit-community/qiskit-metal: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-metal
+[WARN] GitHub fetch failed for unitaryfund/mitiq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/unitaryfund/mitiq
+[WARN] GitHub fetch failed for qulacs/qulacs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qulacs/qulacs
+[WARN] GitHub fetch failed for quantumlib/qsim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qsim
+[WARN] GitHub fetch failed for google/TensorNetwork: 401 Client Error: Unauthorized for url: https://api.github.com/repos/google/TensorNetwork
+[WARN] GitHub fetch failed for jcmgray/quimb: 401 Client Error: Unauthorized for url: https://api.github.com/repos/jcmgray/quimb
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for QCoDeS/Qcodes: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCoDeS/Qcodes
+[WARN] GitHub fetch failed for QuEraComputing/Bloqade: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuEraComputing/Bloqade
+[WARN] GitHub fetch failed for pyscf/pyscf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pyscf/pyscf
+[WARN] GitHub fetch failed for QuantumBFS/yao-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuantumBFS/yao-python
+[WARN] GitHub fetch failed for CQCL/pytket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/CQCL/pytket
+[WARN] GitHub fetch failed for XanaduAI/pennylane-sf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/pennylane-sf
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-03-16 10:20:05] Skip: last run 1773678005s ago (< spacing)
+[2026-03-16 13:34:21] Skip: last run 1773689661s ago (< spacing)
+[2026-03-16 16:25:15] Skip: last run 1773699915s ago (< spacing)
+[2026-03-16 17:58:23] Skip: last run 1773705503s ago (< spacing)
+[2026-03-17 01:10:54] Skip: last run 1773731454s ago (< spacing)
+[2026-03-17 09:12:49] Skip: last run 1773760369s ago (< spacing)
+[2026-03-17 10:36:46] Skip: last run 1773765406s ago (< spacing)
+[2026-03-17 17:33:56] Skip: last run 1773790436s ago (< spacing)
+[2026-03-18 08:28:05] Skip: last run 1773844085s ago (< spacing)
+[2026-03-18 11:07:57] Skip: last run 1773853677s ago (< spacing)
+[2026-03-19 02:30:20] Skip: last run 1773909020s ago (< spacing)
+[2026-03-19 14:26:55] Skip: last run 1773952015s ago (< spacing)
+[2026-03-19 22:04:37] Skip: last run 1773979476s ago (< spacing)
+[2026-03-20 13:03:17] Skip: last run 1774033397s ago (< spacing)
+[2026-03-21 20:47:59] Skip: last run 1774122479s ago (< spacing)
+[2026-03-24 02:24:46] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for Qiskit/qiskit: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/Qiskit/qiskit (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] PyPIStats failed for qiskit: HTTPSConnectionPool(host='pypistats.org', port=443): Max retries exceeded with url: /api/packages/qiskit/recent (Caused by NameResolutionError("HTTPSConnection(host='pypistats.org', port=443): Failed to resolve 'pypistats.org' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for qiskit-community/qiskit-algorithms: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/qiskit-community/qiskit-algorithms (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/amazon-braket/amazon-braket-sdk-python (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] PyPIStats failed for amazon-braket-sdk: HTTPSConnectionPool(host='pypistats.org', port=443): Max retries exceeded with url: /api/packages/amazon-braket-sdk/recent (Caused by NameResolutionError("HTTPSConnection(host='pypistats.org', port=443): Failed to resolve 'pypistats.org' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for qBraid/qBraid: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/qBraid/qBraid (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] PyPIStats failed for qbraid: HTTPSConnectionPool(host='pypistats.org', port=443): Max retries exceeded with url: /api/packages/qbraid/recent (Caused by NameResolutionError("HTTPSConnection(host='pypistats.org', port=443): Failed to resolve 'pypistats.org' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for aqora-io/q3as-py: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/aqora-io/q3as-py (Caused by NameResolutionError("HTTPSConnection(host='api.github.com', port=443): Failed to resolve 'api.github.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[WARN] GitHub fetch failed for aqora-io/cli: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/cli
+[WARN] GitHub fetch failed for qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit/qiskit
+[WARN] GitHub fetch failed for quantumlib/cirq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/cirq
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for dwavesystems/dwave-ocean-sdk: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dwavesystems/dwave-ocean-sdk
+[WARN] GitHub fetch failed for rigetti/pyquil: 401 Client Error: Unauthorized for url: https://api.github.com/repos/rigetti/pyquil
+[WARN] GitHub fetch failed for Blueqat/Blueqat: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Blueqat/Blueqat
+[WARN] GitHub fetch failed for qutip/qutip: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qutip/qutip
+[WARN] GitHub fetch failed for qiboteam/qibo: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiboteam/qibo
+[WARN] GitHub fetch failed for XanaduAI/strawberryfields: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/strawberryfields
+[WARN] GitHub fetch failed for XanaduAI/thewalrus: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/thewalrus
+[WARN] GitHub fetch failed for tqsd/QuNetSim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tqsd/QuNetSim
+[WARN] GitHub fetch failed for tencent-quantum-lab/tensorcircuit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tencent-quantum-lab/tensorcircuit
+[WARN] GitHub fetch failed for dynamiqs/dynamiqs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dynamiqs/dynamiqs
+[WARN] GitHub fetch failed for ProjectQ-Framework/ProjectQ: 401 Client Error: Unauthorized for url: https://api.github.com/repos/ProjectQ-Framework/ProjectQ
+[WARN] GitHub fetch failed for Quantomatic/PyZX: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Quantomatic/PyZX
+[WARN] GitHub fetch failed for quantumlib/OpenFermion: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-Psi4: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-Psi4
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-PySCF: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-PySCF
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane-lightning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane-lightning
+[WARN] GitHub fetch failed for qir-alliance/pyqir: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qir-alliance/pyqir
+[WARN] GitHub fetch failed for physics-materials/z2pack: 401 Client Error: Unauthorized for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for netket/netket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/netket/netket
+[WARN] GitHub fetch failed for weinbe58/QuSpin: 401 Client Error: Unauthorized for url: https://api.github.com/repos/weinbe58/QuSpin
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for pymanopt/pymanopt: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pymanopt/pymanopt
+[WARN] GitHub fetch failed for PennyLaneAI/catalyst: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/catalyst
+[WARN] GitHub fetch failed for qiskit-community/qiskit-nature: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-nature
+[WARN] GitHub fetch failed for qiskit-community/qiskit-optimization: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-optimization
+[WARN] GitHub fetch failed for qiskit-community/qiskit-machine-learning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-machine-learning
+[WARN] GitHub fetch failed for qiskit-community/qiskit-experiments: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-experiments
+[WARN] GitHub fetch failed for qiskit-community/qiskit-dynamics: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-dynamics
+[WARN] GitHub fetch failed for qiskit-community/qiskit-metal: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-metal
+[WARN] GitHub fetch failed for unitaryfund/mitiq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/unitaryfund/mitiq
+[WARN] GitHub fetch failed for qulacs/qulacs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qulacs/qulacs
+[WARN] GitHub fetch failed for quantumlib/qsim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qsim
+[WARN] GitHub fetch failed for google/TensorNetwork: 401 Client Error: Unauthorized for url: https://api.github.com/repos/google/TensorNetwork
+[WARN] GitHub fetch failed for jcmgray/quimb: 401 Client Error: Unauthorized for url: https://api.github.com/repos/jcmgray/quimb
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for QCoDeS/Qcodes: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCoDeS/Qcodes
+[WARN] GitHub fetch failed for QuEraComputing/Bloqade: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuEraComputing/Bloqade
+[WARN] GitHub fetch failed for pyscf/pyscf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pyscf/pyscf
+[WARN] GitHub fetch failed for QuantumBFS/yao-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuantumBFS/yao-python
+[WARN] GitHub fetch failed for CQCL/pytket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/CQCL/pytket
+[WARN] GitHub fetch failed for XanaduAI/pennylane-sf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/pennylane-sf
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-03-24 08:00:05] Skip: last run 1774335605s ago (< spacing)
+[2026-03-24 09:00:05] Skip: last run 1774339205s ago (< spacing)
+[2026-03-24 10:00:05] Skip: last run 1774342805s ago (< spacing)
+[2026-03-24 11:00:05] Skip: last run 1774346405s ago (< spacing)
+[2026-03-24 12:00:05] Skip: last run 1774350005s ago (< spacing)
+[2026-03-24 14:19:16] Skip: last run 1774358356s ago (< spacing)
+[2026-03-24 15:25:28] Skip: last run 1774362328s ago (< spacing)
+[2026-03-24 16:25:28] Skip: last run 1774365928s ago (< spacing)
+[2026-03-25 12:31:34] Skip: last run 1774438294s ago (< spacing)
+[2026-03-25 13:31:34] Skip: last run 1774441894s ago (< spacing)
+[2026-03-25 14:31:34] Skip: last run 1774445494s ago (< spacing)
+[2026-03-25 16:22:27] Skip: last run 1774452147s ago (< spacing)
+[2026-03-25 17:57:47] Skip: last run 1774457867s ago (< spacing)
+[2026-03-25 18:57:47] Skip: last run 1774461467s ago (< spacing)
+[2026-03-26 09:20:15] Skip: last run 1774513215s ago (< spacing)
+[2026-03-26 11:05:33] Skip: last run 1774519533s ago (< spacing)
+[2026-03-26 13:24:57] Skip: last run 1774527897s ago (< spacing)
+[2026-03-26 14:52:22] Skip: last run 1774533142s ago (< spacing)
+[2026-03-26 17:49:51] Skip: last run 1774543791s ago (< spacing)
+[2026-03-26 19:12:45] Skip: last run 1774548765s ago (< spacing)
+[2026-03-26 20:12:45] Skip: last run 1774552365s ago (< spacing)
+[2026-03-26 21:18:25] Skip: last run 1774556304s ago (< spacing)
+[2026-03-26 22:32:19] Skip: last run 1774560739s ago (< spacing)
+[2026-03-27 00:02:14] Skip: last run 1774566134s ago (< spacing)
+[2026-03-27 01:17:12] Skip: last run 1774570632s ago (< spacing)
+[2026-03-27 02:17:12] Skip: last run 1774574232s ago (< spacing)
+[2026-03-27 03:17:12] Skip: last run 1774577832s ago (< spacing)
+[2026-03-27 04:17:13] Skip: last run 1774581433s ago (< spacing)
+[2026-03-27 05:17:13] Skip: last run 1774585033s ago (< spacing)
+[2026-03-27 06:32:33] Skip: last run 1774589553s ago (< spacing)
+[2026-03-27 07:32:33] Skip: last run 1774593153s ago (< spacing)
+[2026-03-27 08:32:33] Skip: last run 1774596753s ago (< spacing)
+[2026-03-27 09:32:33] Skip: last run 1774600353s ago (< spacing)
+[2026-03-27 11:07:05] Skip: last run 1774606025s ago (< spacing)
+[2026-03-27 12:29:57] Skip: last run 1774610997s ago (< spacing)
+[2026-03-27 13:53:18] Skip: last run 1774615998s ago (< spacing)
+[2026-03-27 16:07:52] Skip: last run 1774624072s ago (< spacing)
+[2026-03-27 17:12:17] Skip: last run 1774627937s ago (< spacing)
+[2026-03-27 19:40:55] Skip: last run 1774636855s ago (< spacing)
+[2026-03-28 13:21:08] Skip: last run 1774700468s ago (< spacing)
+[2026-03-28 14:21:08] Skip: last run 1774704068s ago (< spacing)
+[2026-03-28 15:21:08] Skip: last run 1774707668s ago (< spacing)
+[2026-03-28 16:34:26] Skip: last run 1774712066s ago (< spacing)
+[2026-03-28 17:34:26] Skip: last run 1774715666s ago (< spacing)
+[2026-03-28 18:34:26] Skip: last run 1774719266s ago (< spacing)
+[2026-03-28 19:34:26] Skip: last run 1774722866s ago (< spacing)
+[2026-03-28 20:50:29] Skip: last run 1774727429s ago (< spacing)
+[2026-03-28 22:08:12] Skip: last run 1774732092s ago (< spacing)
+[2026-03-28 23:08:12] Skip: last run 1774735692s ago (< spacing)
+[2026-03-29 00:08:12] Skip: last run 1774739292s ago (< spacing)
+[2026-03-29 01:08:12] Skip: last run 1774742892s ago (< spacing)
+[2026-03-29 03:08:12] Skip: last run 1774746492s ago (< spacing)
+[2026-03-29 04:08:12] Skip: last run 1774750092s ago (< spacing)
+[2026-03-29 05:08:12] Skip: last run 1774753692s ago (< spacing)
+[2026-03-29 06:08:12] Skip: last run 1774757292s ago (< spacing)
+[2026-03-29 07:08:13] Skip: last run 1774760893s ago (< spacing)
+[2026-03-29 08:08:13] Skip: last run 1774764493s ago (< spacing)
+[2026-03-29 09:24:42] Skip: last run 1774769082s ago (< spacing)
+[2026-03-29 10:24:42] Skip: last run 1774772682s ago (< spacing)
+[2026-03-29 11:41:16] Skip: last run 1774777276s ago (< spacing)
+[2026-03-29 12:57:21] Skip: last run 1774781841s ago (< spacing)
+[2026-03-29 13:57:21] Skip: last run 1774785441s ago (< spacing)
+[2026-03-29 16:20:27] Skip: last run 1774794027s ago (< spacing)
+[2026-03-29 17:45:47] Skip: last run 1774799147s ago (< spacing)
+[2026-03-29 18:45:47] Skip: last run 1774802747s ago (< spacing)
+[2026-03-29 19:52:11] Skip: last run 1774806730s ago (< spacing)
+[2026-03-29 22:24:59] Skip: last run 1774815899s ago (< spacing)
+[2026-03-30 09:25:44] Skip: last run 1774855544s ago (< spacing)
+[2026-03-30 10:25:44] Skip: last run 1774859144s ago (< spacing)
+[2026-03-30 11:25:44] Skip: last run 1774862744s ago (< spacing)
+[2026-03-30 12:25:44] Skip: last run 1774866344s ago (< spacing)
+[2026-03-30 13:25:44] Skip: last run 1774869944s ago (< spacing)
+[2026-03-30 14:25:44] Skip: last run 1774873544s ago (< spacing)
+[2026-03-30 15:25:45] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for Qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Qiskit/qiskit
+[WARN] GitHub fetch failed for qiskit-community/qiskit-algorithms: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-algorithms
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for qBraid/qBraid: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qBraid/qBraid
+[WARN] GitHub fetch failed for aqora-io/q3as-py: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/q3as-py
+[WARN] GitHub fetch failed for aqora-io/cli: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/cli
+[WARN] GitHub fetch failed for qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit/qiskit
+[WARN] GitHub fetch failed for quantumlib/cirq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/cirq
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for dwavesystems/dwave-ocean-sdk: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dwavesystems/dwave-ocean-sdk
+[WARN] GitHub fetch failed for rigetti/pyquil: 401 Client Error: Unauthorized for url: https://api.github.com/repos/rigetti/pyquil
+[WARN] GitHub fetch failed for Blueqat/Blueqat: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Blueqat/Blueqat
+[WARN] GitHub fetch failed for qutip/qutip: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qutip/qutip
+[WARN] GitHub fetch failed for qiboteam/qibo: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiboteam/qibo
+[WARN] GitHub fetch failed for XanaduAI/strawberryfields: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/strawberryfields
+[WARN] GitHub fetch failed for XanaduAI/thewalrus: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/thewalrus
+[WARN] GitHub fetch failed for tqsd/QuNetSim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tqsd/QuNetSim
+[WARN] GitHub fetch failed for tencent-quantum-lab/tensorcircuit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tencent-quantum-lab/tensorcircuit
+[WARN] GitHub fetch failed for dynamiqs/dynamiqs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dynamiqs/dynamiqs
+[WARN] GitHub fetch failed for ProjectQ-Framework/ProjectQ: 401 Client Error: Unauthorized for url: https://api.github.com/repos/ProjectQ-Framework/ProjectQ
+[WARN] GitHub fetch failed for Quantomatic/PyZX: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Quantomatic/PyZX
+[WARN] GitHub fetch failed for quantumlib/OpenFermion: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-Psi4: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-Psi4
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-PySCF: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-PySCF
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane-lightning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane-lightning
+[WARN] GitHub fetch failed for qir-alliance/pyqir: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qir-alliance/pyqir
+[WARN] GitHub fetch failed for physics-materials/z2pack: 401 Client Error: Unauthorized for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for netket/netket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/netket/netket
+[WARN] GitHub fetch failed for weinbe58/QuSpin: 401 Client Error: Unauthorized for url: https://api.github.com/repos/weinbe58/QuSpin
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for pymanopt/pymanopt: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pymanopt/pymanopt
+[WARN] GitHub fetch failed for PennyLaneAI/catalyst: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/catalyst
+[WARN] GitHub fetch failed for qiskit-community/qiskit-nature: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-nature
+[WARN] GitHub fetch failed for qiskit-community/qiskit-optimization: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-optimization
+[WARN] GitHub fetch failed for qiskit-community/qiskit-machine-learning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-machine-learning
+[WARN] GitHub fetch failed for qiskit-community/qiskit-experiments: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-experiments
+[WARN] GitHub fetch failed for qiskit-community/qiskit-dynamics: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-dynamics
+[WARN] GitHub fetch failed for qiskit-community/qiskit-metal: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-metal
+[WARN] GitHub fetch failed for unitaryfund/mitiq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/unitaryfund/mitiq
+[WARN] GitHub fetch failed for qulacs/qulacs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qulacs/qulacs
+[WARN] GitHub fetch failed for quantumlib/qsim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qsim
+[WARN] GitHub fetch failed for google/TensorNetwork: 401 Client Error: Unauthorized for url: https://api.github.com/repos/google/TensorNetwork
+[WARN] GitHub fetch failed for jcmgray/quimb: 401 Client Error: Unauthorized for url: https://api.github.com/repos/jcmgray/quimb
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for QCoDeS/Qcodes: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCoDeS/Qcodes
+[WARN] GitHub fetch failed for QuEraComputing/Bloqade: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuEraComputing/Bloqade
+[WARN] GitHub fetch failed for pyscf/pyscf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pyscf/pyscf
+[WARN] GitHub fetch failed for QuantumBFS/yao-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuantumBFS/yao-python
+[WARN] GitHub fetch failed for CQCL/pytket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/CQCL/pytket
+[WARN] GitHub fetch failed for XanaduAI/pennylane-sf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/pennylane-sf
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-03-30 16:27:02] Skip: last run 1774880822s ago (< spacing)
+[2026-03-30 17:27:02] Skip: last run 1774884422s ago (< spacing)
+[2026-03-30 18:27:02] Skip: last run 1774888022s ago (< spacing)
+[2026-03-30 19:27:02] Skip: last run 1774891622s ago (< spacing)
+[2026-03-30 20:27:02] Skip: last run 1774895222s ago (< spacing)
+[2026-03-30 23:37:15] Skip: last run 1774906635s ago (< spacing)
+[2026-03-31 08:01:59] Skip: last run 1774936919s ago (< spacing)
+[2026-03-31 18:06:17] Skip: last run 1774973177s ago (< spacing)
+[2026-03-31 19:06:17] Skip: last run 1774976777s ago (< spacing)
+[2026-04-01 10:26:04] Skip: last run 1775031964s ago (< spacing)
+[2026-04-01 11:26:04] Skip: last run 1775035564s ago (< spacing)
+[2026-04-01 12:26:04] Skip: last run 1775039164s ago (< spacing)
+[2026-04-01 13:26:04] Skip: last run 1775042764s ago (< spacing)
+[2026-04-01 14:26:04] Skip: last run 1775046364s ago (< spacing)
+[2026-04-01 15:26:04] Skip: last run 1775049964s ago (< spacing)
+[2026-04-01 16:26:04] Skip: last run 1775053564s ago (< spacing)
+[2026-04-01 17:26:04] Skip: last run 1775057164s ago (< spacing)
+[2026-04-01 18:26:04] Skip: last run 1775060764s ago (< spacing)
+[2026-04-01 21:59:49] Skip: last run 1775073589s ago (< spacing)
+[2026-04-01 22:59:49] Skip: last run 1775077189s ago (< spacing)
+[2026-04-02 09:21:30] Skip: last run 1775114490s ago (< spacing)
+[2026-04-02 10:21:30] Skip: last run 1775118090s ago (< spacing)
+[2026-04-02 11:21:30] Skip: last run 1775121690s ago (< spacing)
+[2026-04-02 12:21:30] Skip: last run 1775125290s ago (< spacing)
+[2026-04-02 13:21:30] Skip: last run 1775128890s ago (< spacing)
+[2026-04-02 14:26:56] Skip: last run 1775132816s ago (< spacing)
+[2026-04-02 15:26:56] Skip: last run 1775136416s ago (< spacing)
+[2026-04-02 16:26:56] Skip: last run 1775140016s ago (< spacing)
+[2026-04-02 18:26:07] Skip: last run 1775147167s ago (< spacing)
+[2026-04-02 19:26:07] Skip: last run 1775150767s ago (< spacing)
+[2026-04-03 11:46:24] Skip: last run 1775209584s ago (< spacing)
+[2026-04-03 12:46:24] Skip: last run 1775213184s ago (< spacing)
+[2026-04-03 13:46:25] Skip: last run 1775216785s ago (< spacing)
+[2026-04-03 14:46:25] Skip: last run 1775220385s ago (< spacing)
+[2026-04-03 15:46:25] Skip: last run 1775223985s ago (< spacing)
+[2026-04-03 16:46:25] Skip: last run 1775227585s ago (< spacing)
+[2026-04-03 17:46:25] Skip: last run 1775231185s ago (< spacing)
+[2026-04-03 18:46:25] Skip: last run 1775234785s ago (< spacing)
+[2026-04-03 19:46:25] Skip: last run 1775238385s ago (< spacing)
+[2026-04-03 20:46:25] Skip: last run 1775241985s ago (< spacing)
+[2026-04-03 21:46:25] Skip: last run 1775245585s ago (< spacing)
+[2026-04-03 22:46:25] Skip: last run 1775249185s ago (< spacing)
+[2026-04-04 11:53:17] Skip: last run 1775296397s ago (< spacing)
+[2026-04-04 12:53:17] Skip: last run 1775299997s ago (< spacing)
+[2026-04-04 15:53:13] Skip: last run 1775310793s ago (< spacing)
+[2026-04-04 17:28:26] Skip: last run 1775316506s ago (< spacing)
+[2026-04-04 20:46:56] Skip: last run 1775328416s ago (< spacing)
+[2026-04-05 22:58:30] Skip: last run 1775422710s ago (< spacing)
+[2026-04-06 14:05:33] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for Qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Qiskit/qiskit
+[WARN] GitHub fetch failed for qiskit-community/qiskit-algorithms: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-algorithms
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for qBraid/qBraid: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qBraid/qBraid
+[WARN] GitHub fetch failed for aqora-io/q3as-py: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/q3as-py
+[WARN] GitHub fetch failed for aqora-io/cli: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/cli
+[WARN] GitHub fetch failed for qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit/qiskit
+[WARN] GitHub fetch failed for quantumlib/cirq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/cirq
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for dwavesystems/dwave-ocean-sdk: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dwavesystems/dwave-ocean-sdk
+[WARN] GitHub fetch failed for rigetti/pyquil: 401 Client Error: Unauthorized for url: https://api.github.com/repos/rigetti/pyquil
+[WARN] GitHub fetch failed for Blueqat/Blueqat: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Blueqat/Blueqat
+[WARN] GitHub fetch failed for qutip/qutip: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qutip/qutip
+[WARN] GitHub fetch failed for qiboteam/qibo: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiboteam/qibo
+[WARN] GitHub fetch failed for XanaduAI/strawberryfields: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/strawberryfields
+[WARN] GitHub fetch failed for XanaduAI/thewalrus: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/thewalrus
+[WARN] GitHub fetch failed for tqsd/QuNetSim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tqsd/QuNetSim
+[WARN] GitHub fetch failed for tencent-quantum-lab/tensorcircuit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tencent-quantum-lab/tensorcircuit
+[WARN] GitHub fetch failed for dynamiqs/dynamiqs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dynamiqs/dynamiqs
+[WARN] GitHub fetch failed for ProjectQ-Framework/ProjectQ: 401 Client Error: Unauthorized for url: https://api.github.com/repos/ProjectQ-Framework/ProjectQ
+[WARN] GitHub fetch failed for Quantomatic/PyZX: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Quantomatic/PyZX
+[WARN] GitHub fetch failed for quantumlib/OpenFermion: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-Psi4: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-Psi4
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-PySCF: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-PySCF
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane-lightning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane-lightning
+[WARN] GitHub fetch failed for qir-alliance/pyqir: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qir-alliance/pyqir
+[WARN] GitHub fetch failed for physics-materials/z2pack: 401 Client Error: Unauthorized for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for netket/netket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/netket/netket
+[WARN] GitHub fetch failed for weinbe58/QuSpin: 401 Client Error: Unauthorized for url: https://api.github.com/repos/weinbe58/QuSpin
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for pymanopt/pymanopt: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pymanopt/pymanopt
+[WARN] GitHub fetch failed for PennyLaneAI/catalyst: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/catalyst
+[WARN] GitHub fetch failed for qiskit-community/qiskit-nature: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-nature
+[WARN] GitHub fetch failed for qiskit-community/qiskit-optimization: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-optimization
+[WARN] GitHub fetch failed for qiskit-community/qiskit-machine-learning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-machine-learning
+[WARN] GitHub fetch failed for qiskit-community/qiskit-experiments: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-experiments
+[WARN] GitHub fetch failed for qiskit-community/qiskit-dynamics: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-dynamics
+[WARN] GitHub fetch failed for qiskit-community/qiskit-metal: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-metal
+[WARN] GitHub fetch failed for unitaryfund/mitiq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/unitaryfund/mitiq
+[WARN] GitHub fetch failed for qulacs/qulacs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qulacs/qulacs
+[WARN] GitHub fetch failed for quantumlib/qsim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qsim
+[WARN] GitHub fetch failed for google/TensorNetwork: 401 Client Error: Unauthorized for url: https://api.github.com/repos/google/TensorNetwork
+[WARN] GitHub fetch failed for jcmgray/quimb: 401 Client Error: Unauthorized for url: https://api.github.com/repos/jcmgray/quimb
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for QCoDeS/Qcodes: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCoDeS/Qcodes
+[WARN] GitHub fetch failed for QuEraComputing/Bloqade: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuEraComputing/Bloqade
+[WARN] GitHub fetch failed for pyscf/pyscf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pyscf/pyscf
+[WARN] GitHub fetch failed for QuantumBFS/yao-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuantumBFS/yao-python
+[WARN] GitHub fetch failed for CQCL/pytket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/CQCL/pytket
+[WARN] GitHub fetch failed for XanaduAI/pennylane-sf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/pennylane-sf
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-04-06 15:16:24] Skip: last run 1775481384s ago (< spacing)
+[2026-04-06 17:23:44] Skip: last run 1775489024s ago (< spacing)
+[2026-04-06 18:23:44] Skip: last run 1775492624s ago (< spacing)
+[2026-04-07 08:13:27] Skip: last run 1775542407s ago (< spacing)
+[2026-04-07 10:59:25] Skip: last run 1775552365s ago (< spacing)
+[2026-04-07 11:59:25] Skip: last run 1775555965s ago (< spacing)
+[2026-04-07 12:59:25] Skip: last run 1775559565s ago (< spacing)
+[2026-04-07 14:14:47] Skip: last run 1775564087s ago (< spacing)
+[2026-04-07 15:14:47] Skip: last run 1775567687s ago (< spacing)
+[2026-04-07 16:25:16] Skip: last run 1775571916s ago (< spacing)
+[2026-04-07 17:33:52] Skip: last run 1775576032s ago (< spacing)
+[2026-04-07 18:33:52] Skip: last run 1775579632s ago (< spacing)
+[2026-04-07 19:33:52] Skip: last run 1775583232s ago (< spacing)
+[2026-04-07 20:42:25] Skip: last run 1775587345s ago (< spacing)
+[2026-04-08 02:12:00] Skip: last run 1775607120s ago (< spacing)
+[2026-04-08 10:05:50] Skip: last run 1775635550s ago (< spacing)
+[2026-04-08 11:08:34] Skip: last run 1775639314s ago (< spacing)
+[2026-04-08 12:08:34] Skip: last run 1775642914s ago (< spacing)
+[2026-04-08 13:14:37] Skip: last run 1775646877s ago (< spacing)
+[2026-04-08 14:16:00] Skip: last run 1775650560s ago (< spacing)
+[2026-04-08 15:16:00] Skip: last run 1775654160s ago (< spacing)
+[2026-04-08 16:31:30] Skip: last run 1775658690s ago (< spacing)
+[2026-04-08 17:31:30] Skip: last run 1775662290s ago (< spacing)
+[2026-04-08 18:41:49] Skip: last run 1775666509s ago (< spacing)
+[2026-04-08 23:14:05] Skip: last run 1775682845s ago (< spacing)
+[2026-04-09 09:29:14] Skip: last run 1775719754s ago (< spacing)
+[2026-04-09 10:29:15] Skip: last run 1775723355s ago (< spacing)
+[2026-04-09 11:31:20] Skip: last run 1775727080s ago (< spacing)
+[2026-04-09 12:44:18] Skip: last run 1775731458s ago (< spacing)
+[2026-04-09 13:54:02] Skip: last run 1775735642s ago (< spacing)
+[2026-04-09 14:54:02] Skip: last run 1775739242s ago (< spacing)
+[2026-04-09 15:54:02] Skip: last run 1775742842s ago (< spacing)
+[2026-04-09 16:54:02] Skip: last run 1775746442s ago (< spacing)
+[2026-04-09 18:17:41] Skip: last run 1775751461s ago (< spacing)
+[2026-04-10 10:25:48] Skip: last run 1775809548s ago (< spacing)
+[2026-04-10 11:25:48] Skip: last run 1775813148s ago (< spacing)
+[2026-04-10 12:27:23] Skip: last run 1775816843s ago (< spacing)
+[2026-04-10 13:27:23] Skip: last run 1775820443s ago (< spacing)
+[2026-04-10 14:27:23] Skip: last run 1775824043s ago (< spacing)
+[2026-04-10 23:58:08] Skip: last run 1775858288s ago (< spacing)
+[2026-04-11 12:22:40] Skip: last run 1775902960s ago (< spacing)
+[2026-04-11 13:22:40] Skip: last run 1775906560s ago (< spacing)
+[2026-04-11 16:53:17] Skip: last run 1775919197s ago (< spacing)
+[2026-04-11 17:53:17] Skip: last run 1775922797s ago (< spacing)
+[2026-04-11 19:11:24] Skip: last run 1775927484s ago (< spacing)
+[2026-04-11 21:21:21] Skip: last run 1775935281s ago (< spacing)
+[2026-04-11 22:21:21] Skip: last run 1775938881s ago (< spacing)
+[2026-04-11 23:21:54] Skip: last run 1775942514s ago (< spacing)
+[2026-04-12 00:51:15] Skip: last run 1775947875s ago (< spacing)
+[2026-04-12 02:37:19] Skip: last run 1775954239s ago (< spacing)
+[2026-04-12 03:37:19] Skip: last run 1775957839s ago (< spacing)
+[2026-04-12 04:37:19] Skip: last run 1775961439s ago (< spacing)
+[2026-04-12 05:37:19] Skip: last run 1775965039s ago (< spacing)
+[2026-04-12 06:54:16] Skip: last run 1775969656s ago (< spacing)
+[2026-04-12 07:54:16] Skip: last run 1775973256s ago (< spacing)
+[2026-04-12 08:54:16] Skip: last run 1775976856s ago (< spacing)
+[2026-04-12 09:54:16] Skip: last run 1775980456s ago (< spacing)
+[2026-04-12 10:54:16] Skip: last run 1775984056s ago (< spacing)
+[2026-04-12 11:54:16] Skip: last run 1775987656s ago (< spacing)
+[2026-04-12 13:28:30] Skip: last run 1775993310s ago (< spacing)
+[2026-04-12 14:38:11] Skip: last run 1775997490s ago (< spacing)
+[2026-04-12 15:38:11] Skip: last run 1776001091s ago (< spacing)
+[2026-04-12 16:38:11] Skip: last run 1776004691s ago (< spacing)
+[2026-04-12 17:38:11] Skip: last run 1776008291s ago (< spacing)
+[2026-04-13 09:34:12] Starting update
+/Users/nicolaweiroster/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[WARN] GitHub fetch failed for Qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Qiskit/qiskit
+[WARN] GitHub fetch failed for qiskit-community/qiskit-algorithms: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-algorithms
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for qBraid/qBraid: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qBraid/qBraid
+[WARN] GitHub fetch failed for aqora-io/q3as-py: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/q3as-py
+[WARN] GitHub fetch failed for aqora-io/cli: 401 Client Error: Unauthorized for url: https://api.github.com/repos/aqora-io/cli
+[WARN] GitHub fetch failed for qiskit/qiskit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit/qiskit
+[WARN] GitHub fetch failed for quantumlib/cirq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/cirq
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane
+[WARN] GitHub fetch failed for amazon-braket/amazon-braket-sdk-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/amazon-braket/amazon-braket-sdk-python
+[WARN] GitHub fetch failed for dwavesystems/dwave-ocean-sdk: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dwavesystems/dwave-ocean-sdk
+[WARN] GitHub fetch failed for rigetti/pyquil: 401 Client Error: Unauthorized for url: https://api.github.com/repos/rigetti/pyquil
+[WARN] GitHub fetch failed for Blueqat/Blueqat: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Blueqat/Blueqat
+[WARN] GitHub fetch failed for qutip/qutip: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qutip/qutip
+[WARN] GitHub fetch failed for qiboteam/qibo: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiboteam/qibo
+[WARN] GitHub fetch failed for XanaduAI/strawberryfields: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/strawberryfields
+[WARN] GitHub fetch failed for XanaduAI/thewalrus: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/thewalrus
+[WARN] GitHub fetch failed for tqsd/QuNetSim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tqsd/QuNetSim
+[WARN] GitHub fetch failed for tencent-quantum-lab/tensorcircuit: 401 Client Error: Unauthorized for url: https://api.github.com/repos/tencent-quantum-lab/tensorcircuit
+[WARN] GitHub fetch failed for dynamiqs/dynamiqs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/dynamiqs/dynamiqs
+[WARN] GitHub fetch failed for ProjectQ-Framework/ProjectQ: 401 Client Error: Unauthorized for url: https://api.github.com/repos/ProjectQ-Framework/ProjectQ
+[WARN] GitHub fetch failed for Quantomatic/PyZX: 401 Client Error: Unauthorized for url: https://api.github.com/repos/Quantomatic/PyZX
+[WARN] GitHub fetch failed for quantumlib/OpenFermion: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-Psi4: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-Psi4
+[WARN] GitHub fetch failed for quantumlib/OpenFermion-PySCF: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/OpenFermion-PySCF
+[WARN] GitHub fetch failed for quantumlib/qdesignoptimizer: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qdesignoptimizer
+[WARN] GitHub fetch failed for PennyLaneAI/pennylane-lightning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/pennylane-lightning
+[WARN] GitHub fetch failed for qir-alliance/pyqir: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qir-alliance/pyqir
+[WARN] GitHub fetch failed for physics-materials/z2pack: 401 Client Error: Unauthorized for url: https://api.github.com/repos/physics-materials/z2pack
+[WARN] GitHub fetch failed for netket/netket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/netket/netket
+[WARN] GitHub fetch failed for weinbe58/QuSpin: 401 Client Error: Unauthorized for url: https://api.github.com/repos/weinbe58/QuSpin
+[WARN] GitHub fetch failed for QCG-OpenQL/openql: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCG-OpenQL/openql
+[WARN] GitHub fetch failed for pymanopt/pymanopt: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pymanopt/pymanopt
+[WARN] GitHub fetch failed for PennyLaneAI/catalyst: 401 Client Error: Unauthorized for url: https://api.github.com/repos/PennyLaneAI/catalyst
+[WARN] GitHub fetch failed for qiskit-community/qiskit-nature: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-nature
+[WARN] GitHub fetch failed for qiskit-community/qiskit-optimization: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-optimization
+[WARN] GitHub fetch failed for qiskit-community/qiskit-machine-learning: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-machine-learning
+[WARN] GitHub fetch failed for qiskit-community/qiskit-experiments: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-experiments
+[WARN] GitHub fetch failed for qiskit-community/qiskit-dynamics: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-dynamics
+[WARN] GitHub fetch failed for qiskit-community/qiskit-metal: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qiskit-community/qiskit-metal
+[WARN] GitHub fetch failed for unitaryfund/mitiq: 401 Client Error: Unauthorized for url: https://api.github.com/repos/unitaryfund/mitiq
+[WARN] GitHub fetch failed for qulacs/qulacs: 401 Client Error: Unauthorized for url: https://api.github.com/repos/qulacs/qulacs
+[WARN] GitHub fetch failed for quantumlib/qsim: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/qsim
+[WARN] GitHub fetch failed for google/TensorNetwork: 401 Client Error: Unauthorized for url: https://api.github.com/repos/google/TensorNetwork
+[WARN] GitHub fetch failed for jcmgray/quimb: 401 Client Error: Unauthorized for url: https://api.github.com/repos/jcmgray/quimb
+[WARN] GitHub fetch failed for quantumlib/FermiLib: 401 Client Error: Unauthorized for url: https://api.github.com/repos/quantumlib/FermiLib
+[WARN] GitHub fetch failed for QCoDeS/Qcodes: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QCoDeS/Qcodes
+[WARN] GitHub fetch failed for QuEraComputing/Bloqade: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuEraComputing/Bloqade
+[WARN] GitHub fetch failed for pyscf/pyscf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pyscf/pyscf
+[WARN] GitHub fetch failed for QuantumBFS/yao-python: 401 Client Error: Unauthorized for url: https://api.github.com/repos/QuantumBFS/yao-python
+[WARN] GitHub fetch failed for CQCL/pytket: 401 Client Error: Unauthorized for url: https://api.github.com/repos/CQCL/pytket
+[WARN] GitHub fetch failed for XanaduAI/pennylane-sf: 401 Client Error: Unauthorized for url: https://api.github.com/repos/XanaduAI/pennylane-sf
+[WARN] GitHub fetch failed for pennylaneai/qgrad: 401 Client Error: Unauthorized for url: https://api.github.com/repos/pennylaneai/qgrad
+[WARN] Google Trends fetch failed: The request failed: Google returned a response with code 400
+Done. Appended snapshot(s) to: /Users/nicolaweiroster/voclsh/telemetry_job/quantum_platform_telemetry_model_free_v2.xlsx
+[exit_code=0]
+[2026-04-13 10:35:58] Skip: last run 1776069358s ago (< spacing)
+[2026-04-13 11:35:58] Skip: last run 1776072958s ago (< spacing)
+[2026-04-13 12:35:58] Skip: last run 1776076558s ago (< spacing)
+[2026-04-13 13:35:59] Skip: last run 1776080159s ago (< spacing)
+[2026-04-13 14:35:59] Skip: last run 1776083759s ago (< spacing)
+[2026-04-13 15:35:59] Skip: last run 1776087359s ago (< spacing)
+[2026-04-13 16:35:59] Skip: last run 1776090959s ago (< spacing)
+[2026-04-13 17:35:59] Skip: last run 1776094559s ago (< spacing)
+[2026-04-13 18:35:59] Skip: last run 1776098159s ago (< spacing)
+[2026-04-13 19:35:59] Skip: last run 1776101759s ago (< spacing)
+[2026-04-13 20:35:59] Skip: last run 1776105359s ago (< spacing)
+[2026-04-13 21:52:43] Skip: last run 1776109963s ago (< spacing)
+[2026-04-14 08:12:01] Skip: last run 1776147121s ago (< spacing)
+[2026-04-14 12:40:35] Skip: last run 1776163235s ago (< spacing)
+[2026-04-14 13:40:35] Skip: last run 1776166835s ago (< spacing)
+[2026-04-14 14:40:35] Skip: last run 1776170435s ago (< spacing)
+[2026-04-14 15:40:35] Skip: last run 1776174035s ago (< spacing)
+[2026-04-14 16:40:35] Skip: last run 1776177635s ago (< spacing)
+[2026-04-14 17:40:35] Skip: last run 1776181235s ago (< spacing)
+[2026-04-14 18:40:35] Skip: last run 1776184835s ago (< spacing)
+[2026-04-14 21:21:33] Skip: last run 1776194493s ago (< spacing)
+[2026-04-14 22:21:33] Skip: last run 1776198093s ago (< spacing)
+[2026-04-14 23:21:33] Skip: last run 1776201693s ago (< spacing)
+[2026-04-15 08:54:32] Skip: last run 1776236072s ago (< spacing)
+[2026-04-15 09:54:32] Skip: last run 1776239672s ago (< spacing)
+[2026-04-15 10:54:32] Skip: last run 1776243272s ago (< spacing)
+[2026-04-15 11:54:33] Skip: last run 1776246872s ago (< spacing)
+[2026-04-15 12:54:33] Skip: last run 1776250473s ago (< spacing)
+[2026-04-15 13:54:33] Skip: last run 1776254073s ago (< spacing)
+[2026-04-15 14:54:33] Skip: last run 1776257673s ago (< spacing)
+[2026-04-15 15:54:33] Skip: last run 1776261273s ago (< spacing)
+[2026-04-15 16:54:33] Skip: last run 1776264873s ago (< spacing)
+[2026-04-15 17:54:33] Skip: last run 1776268473s ago (< spacing)
+[2026-04-15 18:54:33] Skip: last run 1776272073s ago (< spacing)
+[2026-04-15 19:54:33] Skip: last run 1776275673s ago (< spacing)
+[2026-04-15 21:02:42] Skip: last run 1776279762s ago (< spacing)
+[2026-04-15 22:02:42] Skip: last run 1776283362s ago (< spacing)
+[2026-04-15 23:02:42] Skip: last run 1776286962s ago (< spacing)
+[2026-04-16 06:11:04] Skip: last run 1776312664s ago (< spacing)
+[2026-04-16 09:49:45] Skip: last run 1776325785s ago (< spacing)
+[2026-04-16 10:55:19] Skip: last run 1776329719s ago (< spacing)
+[2026-04-16 11:56:35] Skip: last run 1776333395s ago (< spacing)
+[2026-04-16 12:56:37] Skip: last run 1776336996s ago (< spacing)
+[2026-04-16 13:56:37] Skip: last run 1776340597s ago (< spacing)
+[2026-04-16 14:56:37] Skip: last run 1776344197s ago (< spacing)
+[2026-04-16 15:56:37] Skip: last run 1776347797s ago (< spacing)
+[2026-04-16 16:56:37] Skip: last run 1776351397s ago (< spacing)
+[2026-04-16 17:56:37] Skip: last run 1776354997s ago (< spacing)
+[2026-04-16 18:56:37] Skip: last run 1776358597s ago (< spacing)
+[2026-04-16 19:56:37] Skip: last run 1776362197s ago (< spacing)
+[2026-04-16 20:56:37] Skip: last run 1776365797s ago (< spacing)
+[2026-04-16 21:56:37] Skip: last run 1776369397s ago (< spacing)
+[2026-04-16 22:56:37] Skip: last run 1776372997s ago (< spacing)
+[2026-04-17 10:33:26] Skip: last run 1776414806s ago (< spacing)
+[2026-04-17 12:08:43] Skip: last run 1776420523s ago (< spacing)
+[2026-04-17 13:08:43] Skip: last run 1776424123s ago (< spacing)
+[2026-04-17 14:08:43] Skip: last run 1776427723s ago (< spacing)
+[2026-04-17 15:08:43] Skip: last run 1776431323s ago (< spacing)
+[2026-04-17 16:08:43] Skip: last run 1776434923s ago (< spacing)
+[2026-04-17 17:08:43] Skip: last run 1776438523s ago (< spacing)
+[2026-04-17 18:08:43] Skip: last run 1776442123s ago (< spacing)
+[2026-04-17 20:27:24] Skip: last run 1776450444s ago (< spacing)
+[2026-04-17 21:27:25] Skip: last run 1776454045s ago (< spacing)
+[2026-04-17 22:51:37] Skip: last run 1776459097s ago (< spacing)
+[2026-04-18 11:48:02] Skip: last run 1776505682s ago (< spacing)
+[2026-04-18 17:48:45] Skip: last run 1776527325s ago (< spacing)
+[2026-04-19 12:02:39] Skip: last run 1776592959s ago (< spacing)
+[2026-04-19 13:02:39] Skip: last run 1776596559s ago (< spacing)
+[2026-04-19 14:03:01] Skip: last run 1776600181s ago (< spacing)
+[2026-04-19 15:03:01] Skip: last run 1776603781s ago (< spacing)
+[2026-04-19 17:09:46] Skip: last run 1776611385s ago (< spacing)
+[2026-04-19 18:09:46] Skip: last run 1776614986s ago (< spacing)
+[2026-04-19 19:09:46] Skip: last run 1776618586s ago (< spacing)

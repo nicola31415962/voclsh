@@ -1,4 +1,4 @@
-# JAX PORT of povm_functions.py
+# povm_functions.py
 
 import jax.numpy as jnp
 
@@ -37,8 +37,9 @@ def povm_coef_matrix(povm):
     d = min(dims) # dimension of *vector space* - there should be two of these
     D = d**2      # dimesnion of full *HS* space
 
-    can_coef_matrix = povm.reshape((n, D))  # basically flattens all effects
-                                            # simply flattening works, as long as it's consistent
+    # Use conjugated effect vectors so probabilities are inner products:
+    # p_i = Tr(E_i rho) = <vec(E_i), vec(rho)> = conj(vec(E_i)) @ vec(rho)
+    can_coef_matrix = jnp.conj(povm.reshape((n, D)))
         
     # SVD of canonical matrix, to determine the dimension of subspace
     # jnp.linalg.svd returns U, S, Vh like SciPy (full_matrices=False gives compact SVD)
@@ -78,7 +79,7 @@ def pauli_povm_single(*args):
                             [[0.5, -0.5*1j],  [0.5*1j,  0.5]],
                             [[  1,       0],[       0,    0]], # Z eigenstates
                             [[  0,       0],[       0,    1]],
-                          ], dtype=jnp.complex64)
+                          ], dtype=jnp.complex128)
     
     if len(args) < 2:
         return pauli_povm/3 # anything with less than two values will simply return the full POVM

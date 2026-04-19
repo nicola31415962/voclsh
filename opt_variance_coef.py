@@ -1,4 +1,4 @@
-# JAX PORT of opt_variance_coef.py
+# opt_variance_coef.py
 # Changes:
 # - Replaced SciPy/Nelder–Mead with a tiny Adam optimizer (in-file) to stay JAX-native.
 
@@ -12,6 +12,12 @@ import states_functions as sf  # see note below on import names
 # jax/states_functions.py, import as:
 #   import jax.states_functions as sf
 # Adjust to your folder naming (e.g., from . import states_functions as sf).
+
+# default Adam settings (tunable from here)
+ADAM_STEPS_MAIN = 200
+ADAM_LR_MAIN = 2e-2
+ADAM_STEPS_FIX = 200
+ADAM_LR_FIX = 2e-2
 
 # Functions for the construction and optimisation of the optimal variance of a target observable given a specific POVM
 # Requires "states_function" module for some optimised functions
@@ -62,7 +68,7 @@ def nnz_probs(povm_mat, flat_rho):
                 ##-----##
 
 def opt_invmat_state(povm_mat, probs):
-    povm_mat = jnp.asarray(povm_mat, dtype=jnp.float64)
+    povm_mat = jnp.asarray(povm_mat, dtype=jnp.complex128)
     probs    = jnp.asarray(probs,    dtype=jnp.float64)
 
     # Clamp probabilities to avoid huge weights
@@ -71,8 +77,8 @@ def opt_invmat_state(povm_mat, probs):
 
     inv_d = jnp.diag(1.0 / probs)
 
-    # A = P^T D^{-1} P
-    A = povm_mat.T @ inv_d @ povm_mat
+    # Complex BLUE map for constraints flat_obs = povm_mat.T @ coefs.
+    A = povm_mat.T @ inv_d @ jnp.conj(povm_mat)
 
     # Scale-aware ridge: lambda is a small fraction of ||A||
     # cheap norm
@@ -86,7 +92,7 @@ def opt_invmat_state(povm_mat, probs):
     A_reg = A + lam * jnp.eye(A.shape[0], dtype=A.dtype)
 
     I = jnp.eye(A.shape[0], dtype=A.dtype)
-    lmat = inv_d @ povm_mat @ jnp.linalg.solve(A_reg, I)
+    lmat = inv_d @ jnp.conj(povm_mat) @ jnp.linalg.solve(A_reg, I)
     return lmat
 
                 ##-----##
@@ -95,7 +101,8 @@ def opt_coef_state(povm_mat, flat_obs, flat_rho):
     # optimal coefficients for the variance (and shadow norm) for a set of probabilities (fixed state)
     probs = nnz_probs(povm_mat, flat_rho)
     lmat  = opt_invmat_state(povm_mat, probs)
-    return lmat @ flat_obs
+    # Unbiasedness constraint is P^T c = conj(flat_obs) with current vectorisation convention.
+    return lmat @ jnp.conj(flat_obs)
 
                 ##-----##
 
@@ -104,8 +111,9 @@ def opt_sn_state(povm_mat, flat_obs, flat_rho):
     # uses previous functions for calls
     probs = nnz_probs(povm_mat, flat_rho)
     coefs = opt_coef_state(povm_mat, flat_obs, flat_rho)
-    dmat  = jnp.diag(probs)
-    return jnp.real(jnp.conj(coefs) @ dmat @ coefs)  # always >= 0
+    # Equivalent to coefs^\dagger diag(probs) coefs, written with explicit real ops
+    # to avoid complex->real casts during reverse-mode autodiff.
+    return jnp.sum(probs * (jnp.real(coefs) ** 2 + jnp.imag(coefs) ** 2))
 
                 ##-----##
 
@@ -113,7 +121,8 @@ def var_state_optimisation(x, povm_mat, basis_mat, flat_obs):
     # actual optimisation target function, constructing the state from the free parameters and estimates the variance 
     # using the optimal coefficients
     rho_flat = sf.flat_state_from_mat(x, basis_mat) # adapts free variables into a density matrix (in proper subspace)
-    return - opt_sn_state(povm_mat, flat_obs, rho_flat) + jnp.real((rho_flat @ flat_obs)**2)
+    expval = jnp.real(rho_flat @ jnp.conj(flat_obs))
+    return - opt_sn_state(povm_mat, flat_obs, rho_flat) + expval ** 2
 
                 ##-----##
 # -------- JAX: lightweight Adam to replace SciPy --------
@@ -165,7 +174,7 @@ def variance_optimisation(povm_cm, basis_m, observable):
     # JAX: replace SciPy minimize with Adam on the same target
     loss = lambda x: var_state_optimisation(x, povm_cm, basis_m, flatobs)
     loss = jax.jit(loss)
-    xs, neg_var = _adam_minimize(loss, x0, steps=2000, lr=5e-3)
+    xs, neg_var = _adam_minimize(loss, x0, steps=ADAM_STEPS_MAIN, lr=ADAM_LR_MAIN)
 
     flat_rhos = sf.flat_state_from_mat(xs, basis_m) # optimal state
     ocs  = opt_coef_state(povm_cm, flatobs, flat_rhos)
@@ -191,7 +200,7 @@ def fix_coef_var_optimisation(povm_cm, basis_m, coefs):
         return jnp.real(variance_coef_freevars(x, povm_cm, basis_m, coefs))
 
     loss = jax.jit(loss)
-    xs, neg_var = _adam_minimize(loss, x0, steps=2000, lr=5e-3)
+    xs, neg_var = _adam_minimize(loss, x0, steps=ADAM_STEPS_FIX, lr=ADAM_LR_FIX)
 
     flat_rhos = sf.flat_state_from_mat(xs, basis_m) # optimal state
     rhos = (basis_m @ flat_rhos).reshape((d, d))

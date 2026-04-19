@@ -18,8 +18,16 @@ import jax.numpy as jnp
 
 
 # homebrewed modules for the actual variance optimisation and handling of different functions
+# toggle: set to 1 for product-pure, 0 for full
+USE_PRODUCT_PURE = 0
+
+# constrain states unless overridden by env
+if "STATE_CONSTRAINT" not in os.environ:
+    os.environ["STATE_CONSTRAINT"] = "product_pure" if USE_PRODUCT_PURE else "full"
 
 import states_functions as sf
+# ensure module-level toggle matches env even in long-lived sessions
+sf.STATE_CONSTRAINT = os.environ["STATE_CONSTRAINT"]
 import povm_functions as pf
 import opt_variance_coef as ocf
 
@@ -29,7 +37,7 @@ single_povm = pf.pauli_povm_single('X','Z') # single qubit plane POVM
 density = 2  # number of different projectors considered
 
 N_min = 1     # minimal dimension considered
-N_max = 4     # maximal dimension considered
+N_max = 5     # maximal dimension considered
 
 # saving directory (created if non-existing)
 directory= 'plane_proj_XZ_jax'
