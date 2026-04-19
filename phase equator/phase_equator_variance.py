@@ -21,7 +21,7 @@ import opt_variance_coef as ocf
 jax.config.update("jax_enable_x64", True)
 
 # ---- Config (env overrides) ----
-N = int(os.getenv("PHASE_N", 1))
+N = int(os.getenv("PHASE_N", 2))
 STATE_MODE = os.getenv("STATE_CONSTRAINT", "full")
 DENSITY_PHI = int(os.getenv("PHASE_DENSITY_PHI", 48))  # number of phi samples in [0, 2pi)
 

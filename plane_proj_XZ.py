@@ -128,7 +128,7 @@ for N in range(1, N_max+1):
     # canonical inversion
     single_obs = sf.qubit(0, 0)
     obs = pf.tensor_same(single_obs, N)
-    cc = can_em.T @ (sf.flatten_in_basis(obs, bm))
+    cc = can_em.T @ jnp.conj(sf.flatten_in_basis(obs, bm))
     var_can, rho_can = ocf.fix_coef_var_optimisation(pcm, bm, cc)
     np.save(f'{directory}/{filename}_can', np.array(var_can))
 
