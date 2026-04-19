@@ -68,7 +68,7 @@ def nnz_probs(povm_mat, flat_rho):
                 ##-----##
 
 def opt_invmat_state(povm_mat, probs):
-    povm_mat = jnp.asarray(povm_mat, dtype=jnp.complex128)
+    povm_mat = jnp.asarray(povm_mat, dtype=jnp.float64)
     probs    = jnp.asarray(probs,    dtype=jnp.float64)
 
     # Clamp probabilities to avoid huge weights
@@ -77,8 +77,8 @@ def opt_invmat_state(povm_mat, probs):
 
     inv_d = jnp.diag(1.0 / probs)
 
-    # Complex BLUE map for constraints flat_obs = povm_mat.T @ coefs.
-    A = povm_mat.T @ inv_d @ jnp.conj(povm_mat)
+    # A = P^T D^{-1} P
+    A = povm_mat.T @ inv_d @ povm_mat
 
     # Scale-aware ridge: lambda is a small fraction of ||A||
     # cheap norm
@@ -92,7 +92,7 @@ def opt_invmat_state(povm_mat, probs):
     A_reg = A + lam * jnp.eye(A.shape[0], dtype=A.dtype)
 
     I = jnp.eye(A.shape[0], dtype=A.dtype)
-    lmat = inv_d @ jnp.conj(povm_mat) @ jnp.linalg.solve(A_reg, I)
+    lmat = inv_d @ povm_mat @ jnp.linalg.solve(A_reg, I)
     return lmat
 
                 ##-----##
@@ -101,8 +101,7 @@ def opt_coef_state(povm_mat, flat_obs, flat_rho):
     # optimal coefficients for the variance (and shadow norm) for a set of probabilities (fixed state)
     probs = nnz_probs(povm_mat, flat_rho)
     lmat  = opt_invmat_state(povm_mat, probs)
-    # Unbiasedness constraint is P^T c = conj(flat_obs) with current vectorisation convention.
-    return lmat @ jnp.conj(flat_obs)
+    return lmat @ flat_obs
 
                 ##-----##
 
@@ -111,9 +110,8 @@ def opt_sn_state(povm_mat, flat_obs, flat_rho):
     # uses previous functions for calls
     probs = nnz_probs(povm_mat, flat_rho)
     coefs = opt_coef_state(povm_mat, flat_obs, flat_rho)
-    # Equivalent to coefs^\dagger diag(probs) coefs, written with explicit real ops
-    # to avoid complex->real casts during reverse-mode autodiff.
-    return jnp.sum(probs * (jnp.real(coefs) ** 2 + jnp.imag(coefs) ** 2))
+    dmat  = jnp.diag(probs)
+    return jnp.real(jnp.conj(coefs) @ dmat @ coefs)  # always >= 0
 
                 ##-----##
 
@@ -121,13 +119,12 @@ def var_state_optimisation(x, povm_mat, basis_mat, flat_obs):
     # actual optimisation target function, constructing the state from the free parameters and estimates the variance 
     # using the optimal coefficients
     rho_flat = sf.flat_state_from_mat(x, basis_mat) # adapts free variables into a density matrix (in proper subspace)
-    expval = jnp.real(rho_flat @ jnp.conj(flat_obs))
-    return - opt_sn_state(povm_mat, flat_obs, rho_flat) + expval ** 2
+    return - opt_sn_state(povm_mat, flat_obs, rho_flat) + jnp.real((rho_flat @ flat_obs)**2)
 
                 ##-----##
 # -------- JAX: lightweight Adam to replace SciPy --------
 
-def _adam_minimize(fun, x0, steps=500, lr=5e-3, beta1=0.9, beta2=0.999, eps=1e-8):
+def _adam_minimize(fun, x0, steps=500, lr=2e-2, beta1=0.9, beta2=0.999, eps=1e-8): #default: steps=2000, lr=5e-3; seems stable but risky: steps=100, lr=1e-2
     valgrad = jax.value_and_grad(fun)
     # ensure everything is real (float64) to avoid complex promotions
     x0 = jnp.asarray(x0, dtype=jnp.float64)
