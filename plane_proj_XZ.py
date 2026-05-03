@@ -2,6 +2,12 @@
 # Minor changes:
 # - Uses the JAX modules
 # - Removes joblib parallel for simplicity (can reintroduce with pmap/vmap later)
+#
+# This is the experiment script for the XZ-plane POVM problem. It is the file a student would
+# copy and adapt for a new problem: define a new POVM (single_povm), a new family of observables
+# (the singleobs / obs construction in the loops), and adjust N_min/N_max and the output directory.
+# The three imported modules (states_functions, povm_functions, opt_variance_coef) are the core
+# engine and should not need to be modified.
 import warnings
 warnings.filterwarnings("ignore", message="Casting complex values to real discards the imaginary part")
 
@@ -19,6 +25,9 @@ import jax.numpy as jnp
 
 # homebrewed modules for the actual variance optimisation and handling of different functions
 # toggle: set to 1 for product-pure, 0 for full
+# USE_PRODUCT_PURE selects the state parameterisation used during optimisation (see
+# states_functions.flat_state_from_mat). Set to 1 to restrict to product pure states (faster,
+# but misses entangled worst-case states); 0 uses the full density matrix parameterisation.
 USE_PRODUCT_PURE = 0
 
 # constrain states unless overridden by env
@@ -32,8 +41,14 @@ import povm_functions as pf
 import opt_variance_coef as ocf
 
 # global variables
+# single_povm: the single-qubit POVM for the XZ plane — the 4 projectors onto the ±1 eigenstates
+# of X and Z, each weighted by 1/2. For a different problem, replace this line with a call to
+# a function that returns your POVM as an (n, d, d) array and passes it to pf.povm_coef_matrix.
 single_povm = pf.pauli_povm_single('X','Z') # single qubit plane POVM
 
+# density: number of theta values sampled per qubit count N. The angles are theta_j = j*pi/(4*density)
+# for j in range(density), covering a quarter of the Bloch sphere equator (XZ plane symmetry reduces
+# the full [0, pi/2] range to [0, pi/4]). Increase density for a finer angular resolution.
 density = 2  # number of different projectors considered
 
 N_min = 1     # minimal dimension considered
@@ -46,6 +61,10 @@ os.makedirs(directory, exist_ok=True)
 # ---- batched solver wrapper (CPU / 1-GPU / multi-GPU) ----
 
 def solve_single_theta(theta, pcm, bm, N):
+    # Runs variance_optimisation for a single observable at polar angle theta in the XZ plane
+    # (phi=0 fixes the observable to the XZ plane). The single-qubit observable is tensored N
+    # times to get the N-qubit target observable. Returns only the variance (scalar float),
+    # discarding the optimal state and coefficients since we only need the variance curve.
     phi = 0.0
     singleobs = sf.qubit(theta, phi)
     obs = pf.tensor_same(singleobs, N)
@@ -58,6 +77,11 @@ def solve_thetas(theta_array, pcm, bm, N):
     pcm, bm: POVM coeff matrix and basis
     N: number of qubits
     """
+    # Vectorises solve_single_theta over an array of theta values. On a single CPU or GPU, jit+vmap
+    # compiles one batched call that avoids Python loop overhead and is significantly faster than
+    # calling solve_single_theta in a Python for-loop. On multiple GPUs, the batch is split evenly
+    # across devices with zero-padding to handle non-divisible sizes, and results are stitched back
+    # together. The device selection is automatic — no manual configuration needed.
 
     # vmap for single device (CPU or single GPU)
     def single_device(theta_array):
@@ -97,11 +121,15 @@ def solve_thetas(theta_array, pcm, bm, N):
         # CPU or single GPU → just use jit+vmap
         return single_device(theta_array)
 
-    
+
 # -------
 
 # --- helper function mirroring your structure ---
 def compute_var_for_theta(j, density, N, pcm, bm):
+    # Scalar fallback version of the per-theta computation (same logic as solve_single_theta,
+    # but takes j and density as arguments and computes theta internally). Not used in the main
+    # loop (which calls the faster solve_thetas), but kept as a readable reference for the
+    # structure of a single computation: build observable → call variance_optimisation → return var.
     theta = j*np.pi/(4*density)
     phi = 0
     singleobs = sf.qubit(theta, phi)
@@ -110,6 +138,16 @@ def compute_var_for_theta(j, density, N, pcm, bm):
     return float(var)
 
 # --- main loop ---
+# Iterates over qubit counts N from 1 to N_max. For each N:
+#   1. Builds the N-qubit POVM as tensor_same(single_povm, N) and computes pcm, bm via povm_coef_matrix.
+#   2. Computes the canonical estimator variance as a benchmark: the canonical coefficients are the
+#      rows of pinv(pcm), and fix_coef_var_optimisation finds the worst-case state for those fixed
+#      coefficients. This gives an upper bound on the variance achievable by the canonical estimator.
+#   3. Computes the optimal variance curve over the theta sweep using solve_thetas (vectorised over
+#      the batch of angles). This is the tightest upper bound on the variance for any estimator.
+#   4. Saves results to .npy files for later analysis or plotting.
+# To adapt this for a different problem: replace single_povm with your POVM, replace sf.qubit and
+# pf.tensor_same with your own observable construction, and adjust the theta sweep as needed.
 all_vec = []
 all_can = []
 min_vec = []
@@ -151,6 +189,10 @@ for N in range(1, N_max+1):
 np.save(f'{directory}/time_log', np.array(times))
 
 # --- Plots (clean legends & labels) ---
+# Three-panel figure: (left) optimal and canonical variance vs theta for each N; (middle) ratio
+# of optimal to canonical, showing how much the optimised estimator improves on the canonical one;
+# (right) scaling of the minimum and average optimal variance with qubit number N, alongside the
+# canonical scaling, to assess how the advantage (or disadvantage) grows with system size.
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
